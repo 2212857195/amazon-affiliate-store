@@ -139,6 +139,14 @@ function App() {
 
           
         </Routes>
+        <div className="mt-8 pt-6 border-t-4 border-black text-center px-4 mb-4">
+  <p className="text-[10px] md:text-xs font-bold uppercase tracking-widest leading-relaxed text-black">
+    As an Amazon Associate, I earn from qualifying purchases. 
+  </p>
+  <p className="text-[10px] md:text-xs font-bold uppercase tracking-widest leading-relaxed text-gray-700 mt-2">
+    This site also participates in the AliExpress Affiliate Program and may earn commissions from links on this page.
+  </p>
+</div>
 
         <style jsx>{`
           @keyframes marquee {
